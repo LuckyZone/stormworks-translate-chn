@@ -6020,7 +6020,7 @@ def_radar_advanced_node_1_desc		Enable the Radar.	启动雷达
 def_radar_advanced_node_2_label		Radar Data	雷达数据
 def_radar_advanced_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_node_3_label		Radar Rotation	雷达旋转
-def_radar_advanced_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
+def_radar_advanced_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始圈数
 def_radar_advanced_awacs_name		Radar (AWACS)	雷达(预警机)
 def_radar_advanced_awacs_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
 def_radar_advanced_awacs_s_desc		A long range radar that returns information about a detected object within its view.	远程雷达，返回视野内探测到的物体的信息
@@ -6031,7 +6031,7 @@ def_radar_advanced_awacs_node_1_desc		Enable the Radar.	启动雷达
 def_radar_advanced_awacs_node_2_label		Radar Data	雷达数据
 def_radar_advanced_awacs_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_awacs_node_3_label		Radar Rotation	雷达旋转
-def_radar_advanced_awacs_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
+def_radar_advanced_awacs_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始圈数
 def_radar_advanced_dish_name		Radar (Dish)	雷达(抛物面天线)
 def_radar_advanced_dish_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
 def_radar_advanced_dish_s_desc		A radar that returns information about a detected object within its view.	远程雷达，返回视野内探测到的物体的信息
@@ -6042,7 +6042,7 @@ def_radar_advanced_dish_node_1_desc		Enable the Radar.	启动雷达
 def_radar_advanced_dish_node_2_label		Radar Data	雷达数据
 def_radar_advanced_dish_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_dish_node_3_label		Radar Rotation	雷达旋转
-def_radar_advanced_dish_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
+def_radar_advanced_dish_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始圈数
 def_radar_advanced_missile_name		Radar (Missile)	雷达(导弹)
 def_radar_advanced_missile_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. This sensor is designed for missiles and its radar acts along the Z axis. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。该传感器是为导弹设计的，其雷达沿Z轴工作。灵敏度取决于视场、目标大小和距离
 def_radar_advanced_missile_s_desc		A short range radar that returns information about a detected object within its view.	短程雷达，返回其视野内探测到的物体的信息
@@ -6055,7 +6055,7 @@ def_radar_advanced_missile_node_2_desc		Outputs data for up to 8 targets. On/Off
 def_radar_advanced_missile_node_3_label		Missile Output	导弹输出
 def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
 def_radar_advanced_missile_node_4_label		Radar Rotation	雷达旋转
-def_radar_advanced_missile_node_4_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
+def_radar_advanced_missile_node_4_desc		Current radar rotation from forward in turns.	当前雷达从前方开始圈数
 def_radar_advanced_missile_laser_name		Laser Sensor (Missile)	激光传感器(导弹)
 def_radar_advanced_missile_laser_desc		This sensor is designed for missiles and acts along the Z axis, with an output node that passes data to course correct linked rocket fin components toward the closest target. The sensor also outputs data for up to 8 detected laser points.	为导弹设计,最大输出8个探测到的激光点的数据,沿Z轴作用,可连接到火箭弹翼以向最近的目标方向修正.
 def_radar_advanced_missile_laser_s_desc		A short range sensor that returns information about detected laser points within its view.	短距离的传感器，返回其视野内探测到的激光点的信息
@@ -6079,7 +6079,7 @@ def_radar_advanced_phalanx_node_1_desc		Enable the Radar.	启动雷达
 def_radar_advanced_phalanx_node_2_label		Radar Data	雷达数据
 def_radar_advanced_phalanx_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_phalanx_node_3_label		Radar Rotation	雷达旋转
-def_radar_advanced_phalanx_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
+def_radar_advanced_phalanx_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始圈数
 def_radar_detector_name		Radar Detector	雷达告警接收机
 def_radar_detector_desc		This sensor outputs an On signal when it detects a radio wave.	当检测到雷达波时，该传感器输出on信号
 def_radar_detector_s_desc		A sensor that can detect radar waves.	侦测雷达波的传感器
