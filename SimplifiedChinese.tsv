@@ -7522,17 +7522,17 @@ def_steam_coal_funnel_node_0_label		Open	打开
 def_steam_coal_funnel_node_0_desc			
 def_steam_coal_hopper_name		Hopper	输送管料斗
 def_steam_coal_hopper_desc		Pouring resources into the receptacle will add it to the connected system.	将资源倒入料斗以存储到相连接的系统中
-def_steam_coal_hopper_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	一个能够容纳散装矿物、金属锭和鱼类的料斗
 def_steam_coal_hopper_node_0_label		Fill Level	储量
 def_steam_coal_hopper_node_0_desc			
 def_steam_coal_hopper_l_name		Hopper Large	输送管料斗(大)
 def_steam_coal_hopper_l_desc		Pouring resources into the receptacle will add it to the connected system.	将矿物倒入料斗以存储到相连接的系统中
-def_steam_coal_hopper_l_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_l_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	一个能够容纳散装矿物、金属锭和鱼类的料斗
 def_steam_coal_hopper_l_node_0_label		Fill Level	储量
 def_steam_coal_hopper_l_node_0_desc			
 def_steam_coal_hopper_m_name		Hopper Medium	输送管料斗(中)
 def_steam_coal_hopper_m_desc		Pouring resources into the receptacle will add it to the connected system.	将矿物倒入料斗以存储到相连接的系统中
-def_steam_coal_hopper_m_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_m_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	一个能够容纳散装矿物、金属锭和鱼类的料斗
 def_steam_coal_hopper_m_node_0_label		Fill Level	储量
 def_steam_coal_hopper_m_node_0_desc			
 def_steam_coal_vacuum_name		Vacuum Duct	输送管吸口
