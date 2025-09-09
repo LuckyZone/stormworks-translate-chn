@@ -2695,6 +2695,8 @@ id	description	en	local
 		Firefighter SCBA	正压式消防空气呼吸器
 		Battery	电池
 		Water	水
+		Spawn Particles	生成烟雾
+		Tourism Castle	观光城堡
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -6059,7 +6061,7 @@ def_radar_advanced_missile_node_1_desc		Enable the Radar.	启动雷达
 def_radar_advanced_missile_node_2_label		Radar Data	雷达数据
 def_radar_advanced_missile_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_missile_node_3_label		Missile Output	导弹输出
-def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
+def_radar_advanced_missile_node_3_desc		Outputs yaw and pitch rotations toward the most immediate target. (Value 1 : Yaw) (Value 2 : Pitch). Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中(值1 : 偏航) (值2 : 俯仰).
 def_radar_advanced_missile_node_4_label		Radar Rotation	雷达旋转
 def_radar_advanced_missile_node_4_desc		Current radar rotation from forward in turns.	当前雷达从前方开始圈数
 def_radar_advanced_missile_laser_name		Laser Sensor (Missile)	激光传感器(导弹)
@@ -6072,7 +6074,7 @@ def_radar_advanced_missile_laser_node_1_desc		Enable the Laser Sensor.	启用激
 def_radar_advanced_missile_laser_node_2_label		Sensor Data	传感器数据
 def_radar_advanced_missile_laser_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_missile_laser_node_3_label		Missile Output	导弹输出
-def_radar_advanced_missile_laser_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
+def_radar_advanced_missile_laser_node_3_desc		Outputs yaw and pitch rotations toward the most immediate target. (Value 1 : Yaw) (Value 2 : Pitch). Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中(值1 : 偏航) (值2 : 俯仰).
 def_radar_advanced_missile_laser_node_4_label		Wavelength	激光编码
 def_radar_advanced_missile_laser_node_4_desc		The specific light wavelength to detect (whole number).	要捕获的激光编码
 def_radar_advanced_phalanx_name		Radar (Phalanx)	雷达(密集阵)
@@ -7315,7 +7317,7 @@ def_solid_rocket_huge_fins_name		Solid Rocket Fuel (Huge) (Fins)	固体火箭燃
 def_solid_rocket_huge_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_huge_fins_s_desc		A huge solid rocket fuel segment with in-built controllable fins.	巨大的固体火箭燃料段，内置可控弹翼
 def_solid_rocket_huge_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_huge_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_huge_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_huge_fins_node_1_label		Electric	电
 def_solid_rocket_huge_fins_node_1_desc		Electrical power connection.	电源连接
 def_solid_rocket_large_name		Solid Rocket Fuel (Large)	固体火箭燃料(大)
@@ -7325,7 +7327,7 @@ def_solid_rocket_large_fins_name		Solid Rocket Fuel (Large) (Fins)	固体火箭�
 def_solid_rocket_large_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_large_fins_s_desc		A large solid rocket fuel segment with in-built controllable fins.	带有内置可控弹翼的大型固体火箭燃料段
 def_solid_rocket_large_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_large_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_large_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_large_fins_node_1_label		Electric	电
 def_solid_rocket_large_fins_node_1_desc		Electrical power connection.	电源连接
 def_solid_rocket_medium_name		Solid Rocket Fuel (Medium)	固体火箭燃料(中)
@@ -7335,7 +7337,7 @@ def_solid_rocket_medium_fins_name		Solid Rocket Fuel (Medium) (Fins)	固体火�
 def_solid_rocket_medium_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_medium_fins_s_desc		A medium solid rocket fuel segment with in-built controllable fins.	带有内置可控弹翼的中型固体火箭燃料段
 def_solid_rocket_medium_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_medium_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_medium_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_medium_fins_node_1_label		Electric	电
 def_solid_rocket_medium_fins_node_1_desc		Electrical power connection.	电源连接
 def_solid_rocket_nozzle_huge_name		Solid Rocket Booster (Huge)	固体火箭助推器(巨)
@@ -7371,7 +7373,7 @@ def_solid_rocket_small_fins_name		Solid Rocket Fuel (Small) (Fins)	固体火箭�
 def_solid_rocket_small_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_small_fins_s_desc		A small solid rocket fuel segment with in-built controllable fins.	带有内置可控弹翼的小型固体火箭燃料段
 def_solid_rocket_small_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_small_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_small_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_small_fins_node_1_label		Electric	电
 def_solid_rocket_small_fins_node_1_desc		Electrical power connection.	电源连接
 def_sonar_advanced_name		Sonar (Small)	声纳(小)
