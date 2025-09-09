@@ -3384,8 +3384,8 @@ def_digital_display_node_1_desc		Enables the backlight when receiving an on sign
 def_digital_display_node_2_label		Electric	电
 def_digital_display_node_2_desc		Electrical power connection.	电源连接
 def_distance_sensor_name		Distance Sensor	距离传感器
-def_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	以米为单位输出测量的距离(1米=4块),最大量程500米
-def_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 500m.	最大量程为500米的激光测距仪
+def_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	以米为单位输出测量的距离(1米=4方块),最大量程500米
+def_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 500m.	最大量程为500米的测距仪
 def_distance_sensor_node_0_label		Distance	距离
 def_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离
 def_distance_sensor_node_1_label		Electric	电
@@ -4964,7 +4964,7 @@ def_inventory_outfit_firefighter_desc		When equipped, it will absorb 95% of dama
 def_inventory_outfit_firefighter_s_desc		An outfit inventory unit containing specialist firefighting gear.	包含专业消防装备的装备架
 def_inventory_outfit_firefighter_node_0_label		Electric	电
 def_inventory_outfit_firefighter_node_0_desc		Electrical power connection.	电源连接
-def_inventory_outfit_firefighter_scba_name		Outfit Inventory (Firefighter SCBA)	装备架(正压式消防空气呼吸器)
+def_inventory_outfit_firefighter_scba_name		Outfit Inventory (Firefighter SCBA)	装备架(呼吸器消防服)
 def_inventory_outfit_firefighter_scba_desc		When equipped, it will absorb 95% of damage dealt by fires, and provides breathable air for the user. The air tank can be refilled by storing the gear in an outfit inventory unit.	该装备可吸收95%的火焰伤害,并为使用者提供呼吸用空气.储气罐可通过装备架进行充气
 def_inventory_outfit_firefighter_scba_s_desc		An outfit inventory unit containing specialist firefighting gear.	包含正压式消防空气呼吸器的装备架
 def_inventory_outfit_firefighter_scba_node_0_label		Electric	电
@@ -5104,8 +5104,8 @@ def_jet_engine_exhaust_rotating_node_1_label		Temperature	温度
 def_jet_engine_exhaust_rotating_node_1_desc		The temperature of air into the exhaust.	进入排气管的气体温度
 def_jet_engine_exhaust_rotating_node_2_label		Thrust Spoiler	喷管收敛控制
 def_jet_engine_exhaust_rotating_node_2_desc		The air flow spoiler for reducing effective thrust from the exhaust. Takes value 0 (no reduction in thrust) to 1 (total reduction in thrust).	控制喷气口的阻力。取值为0(不减少推力)到1(完全减少推力)
-def_jet_engine_exhaust_rotating_node_3_label		Rotation Target	旋转目标
-def_jet_engine_exhaust_rotating_node_3_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的起始值
+def_jet_engine_exhaust_rotating_node_3_label		Rotation Target	目标圈数
+def_jet_engine_exhaust_rotating_node_3_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_jet_engine_exhaust_rotating_node_4_label		Electric	电
 def_jet_engine_exhaust_rotating_node_4_desc		Electrical input to power the exhaust's pivot.	为排气枢轴提供动力的电源输入
 def_jet_engine_intake_large_name		Large Jet Intake	喷气式进气道(大)
@@ -5698,8 +5698,8 @@ def_multibody_compact_pivot_b_s_desc
 def_multibody_compact_pivot_robotic_a_name		Compact Robotic Pivot	机械枢轴(紧凑型)
 def_multibody_compact_pivot_robotic_a_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。轴的测量旋转可以从其输出中读取。轴的速度可以通过使用选择工具选择来配置
 def_multibody_compact_pivot_robotic_a_s_desc		A small robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
-def_multibody_compact_pivot_robotic_a_node_0_label		Rotation Target	旋转目标
-def_multibody_compact_pivot_robotic_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_compact_pivot_robotic_a_node_0_label		Rotation Target	目标圈数
+def_multibody_compact_pivot_robotic_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_compact_pivot_robotic_a_node_1_label		Electric	电
 def_multibody_compact_pivot_robotic_a_node_1_desc		Electrical power connection.	电源连接
 def_multibody_compact_pivot_torque_a_name		Compact Pivot (Power)	机械枢轴(紧凑 动力型)
@@ -5720,8 +5720,8 @@ def_multibody_compact_pivot_velocity_a_node_1_desc		Electrical power connection.
 def_multibody_door_hinge_a_name		Robotic Door Hinge	自定义门-铰链[主]
 def_multibody_door_hinge_a_desc		The hinge has a range of motion of 0.25 in each direction. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the hinge can be read from its output. The hinge's speed can be configured by selecting it with the select tool.	铰链在一个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
 def_multibody_door_hinge_a_s_desc		A powered robotic hinge for custom sealable doors.	用于定制可密封门的电动机械铰链
-def_multibody_door_hinge_a_node_0_label		Rotation Target	旋转目标
-def_multibody_door_hinge_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_door_hinge_a_node_0_label		Rotation Target	目标圈数
+def_multibody_door_hinge_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_door_hinge_a_node_1_label		Current Rotation	当前圈数
 def_multibody_door_hinge_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在-0.25到0.25之间的旋转测量值
 def_multibody_door_hinge_a_node_2_label		Electric	电
@@ -5754,8 +5754,8 @@ def_multibody_pivot_torque_b_node_0_desc		Power connection for transfering mecha
 def_multibody_robotic_hinge_01_a_name		Robotic Hinge	机械铰链[主]
 def_multibody_robotic_hinge_01_a_desc		The hinge has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the hinge can be read from its output. The hinge's speed can be configured by selecting it with the select tool.	铰链在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
 def_multibody_robotic_hinge_01_a_s_desc		A powered robotic hinge that will orientate towards the input value within its range of motion.	有动力的机械铰链，它将朝向其运动范围内的输入值
-def_multibody_robotic_hinge_01_a_node_0_label		Rotation Target	旋转目标
-def_multibody_robotic_hinge_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_robotic_hinge_01_a_node_0_label		Rotation Target	目标圈数
+def_multibody_robotic_hinge_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_robotic_hinge_01_a_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_hinge_01_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在0到0.25之间的旋转测量值
 def_multibody_robotic_hinge_01_a_node_2_label		Electric	电
@@ -5774,8 +5774,8 @@ def_multibody_robotic_hinge_01_b_node_1_desc		Fluid connection for transfering f
 def_multibody_robotic_pivot_01_a_name		Robotic Pivot (Power)	机械枢轴(动力)
 def_multibody_robotic_pivot_01_a_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the pivot can be read from its output. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
 def_multibody_robotic_pivot_01_a_s_desc		A robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
-def_multibody_robotic_pivot_01_a_node_0_label		Rotation Target	旋转目标
-def_multibody_robotic_pivot_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_robotic_pivot_01_a_node_0_label		Rotation Target	目标圈数
+def_multibody_robotic_pivot_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_robotic_pivot_01_a_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_pivot_01_a_node_1_desc		The pivot's measured rotation between -0.25 and 0.25.	枢轴在-0.25到0.25之间测量
 def_multibody_robotic_pivot_01_a_node_2_label		Electric	电
@@ -5785,8 +5785,8 @@ def_multibody_robotic_pivot_01_a_node_3_desc		Power connection for transfering m
 def_multibody_robotic_pivot_01_a_fluid_name		Robotic Pivot (Fluid)	机械枢轴(流体)
 def_multibody_robotic_pivot_01_a_fluid_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the pivot can be read from its output. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。轴的测量旋转可以从其输出中读取。轴的速度可以通过使用选择工具选择来配置
 def_multibody_robotic_pivot_01_a_fluid_s_desc		A robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
-def_multibody_robotic_pivot_01_a_fluid_node_0_label		Rotation Target	旋转目标
-def_multibody_robotic_pivot_01_a_fluid_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_robotic_pivot_01_a_fluid_node_0_label		Rotation Target	目标圈数
+def_multibody_robotic_pivot_01_a_fluid_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_robotic_pivot_01_a_fluid_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_pivot_01_a_fluid_node_1_desc		The pivot's measured rotation between -0.25 and 0.25.	枢轴在-0.25到0.25之间测量
 def_multibody_robotic_pivot_01_a_fluid_node_2_label		Electric	电
