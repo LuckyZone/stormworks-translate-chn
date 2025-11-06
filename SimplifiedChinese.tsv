@@ -591,6 +591,7 @@ id	description	en	local
 		Requires Password	需要密码
 		Password	密码
 		Max Players	最大玩家数
+		Allow Modded Components	允许使用修改过的组件
 		Host	创建服务器
 		Submit	提交
 		CHOOSE BASE	选择基地
@@ -4260,6 +4261,26 @@ def_gun_belt_corner_xxl_desc		Cannon ammo belts can store and transfer ammo shel
 def_gun_belt_corner_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带
 def_gun_belt_corner_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true
+def_gun_belt_flex_name		Autocannon Belt (Flexible)	自动炮弹链
+def_gun_belt_flex_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Autocannon belts can transfer all calibers of autocannon ammo.	柔性弹药带可以通过绳索节点连接在一起以传输弹药.自动炮弹药带可以传输所有口径的自动炮弹药
+def_gun_belt_flex_s_desc		An autocannon ammo belt.	自动炮弹药带
+def_gun_belt_flex_node_0_label		Ammo	弹药
+def_gun_belt_flex_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
+def_gun_belt_flex_l_name		Battle Cannon Belt (Flexible)	坦克炮弹链
+def_gun_belt_flex_l_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,坦克炮弹药带可以储存和转移弹药,生成的弹药类型可以在组件属性窗口中设置
+def_gun_belt_flex_l_s_desc		A battle cannon ammo belt.	坦克炮弹药带
+def_gun_belt_flex_l_node_0_label		Ammo	弹药
+def_gun_belt_flex_l_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
+def_gun_belt_flex_xl_name		Artillery Cannon Belt (Flexible)	大型榴弹炮弹链
+def_gun_belt_flex_xl_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,大型榴弹炮弹药带可以储存和转移弹药,生成的弹药类型可以在组件属性窗口中设置
+def_gun_belt_flex_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带
+def_gun_belt_flex_xl_node_0_label		Ammo	弹药
+def_gun_belt_flex_xl_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
+def_gun_belt_flex_xxl_name		Bertha Cannon Belt (Flexible)	贝莎巨炮弹链
+def_gun_belt_flex_xxl_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,贝莎巨炮弹药带可以储存和转移弹药。生成的弹药类型可以在组件属性窗口中设置,贝莎巨炮弹药过大,无法手动转移
+def_gun_belt_flex_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带
+def_gun_belt_flex_xxl_node_0_label		Ammo	弹药
+def_gun_belt_flex_xxl_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
 def_gun_belt_junction_name		Autocannon Belt (Junction)	自动火炮弹药带(交叉)
 def_gun_belt_junction_desc		Autocannon belts can transfer all calibers of autocannon ammo. Junction belts redirect the path of ammo transfer.	自动火炮弹药带可以传送所有口径的自动火炮弹药。连接带改变了弹药转移的路径
 def_gun_belt_junction_s_desc		An autocannon ammo belt.	自动火炮弹药带
@@ -6372,6 +6393,8 @@ def_rope_hook_winch_huge_node_13_label		Fluid	流体
 def_rope_hook_winch_huge_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rope_hook_winch_huge_node_14_label		Speed	速度
 def_rope_hook_winch_huge_node_14_desc		The speed of the winch clamped to a relative range of -1 to 1.	绞盘的速度,范围-1~1
+def_rope_hook_winch_huge_node_15_label		Detach Rope	断开绳索
+def_rope_hook_winch_huge_node_15_desc			
 def_rope_hook_winch_large_name		Large Winch	绞车(大)
 def_rope_hook_winch_large_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_large_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 150m.	最大长度150米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
@@ -6405,6 +6428,8 @@ def_rope_hook_winch_large_node_13_label		Fluid	流体
 def_rope_hook_winch_large_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rope_hook_winch_large_node_14_label		Speed	速度
 def_rope_hook_winch_large_node_14_desc		The speed of the winch clamped to a relative range of -1 to 1.	绞盘的速度,范围-1~1
+def_rope_hook_winch_large_node_15_label		Detach Rope	断开绳索
+def_rope_hook_winch_large_node_15_desc			
 def_rope_hook_winch_small_name		Small Winch	绞车(小)
 def_rope_hook_winch_small_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_small_s_desc		A mechanical winch that can transfer electric/fluid through an attached cable, with an extension length of 10m.	最大长度10米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
@@ -7515,6 +7540,11 @@ def_steam_coal_firebox_l_node_5_label		Air	空气
 def_steam_coal_firebox_l_node_5_desc		Port for supplying air to the fire.	燃烧室进气口
 def_steam_coal_firebox_l_node_6_label		Exhaust	排气管
 def_steam_coal_firebox_l_node_6_desc		Port for removing exhaust from burnt coal.	燃煤废气的排气口
+def_steam_coal_flex_name		Flexible Duct	柔性输送管
+def_steam_coal_flex_desc		Transports resources through the connected system. Flexible ducts can be connected together by rope nodes to transfer resources.	通过连接在一起的管道系统输送资源.柔性输送管可以通过绳索节点连接在一起以运输资源
+def_steam_coal_flex_s_desc		A flexible resource duct.	柔性物资输送管
+def_steam_coal_flex_node_0_label		Duct	输送管
+def_steam_coal_flex_node_0_desc			
 def_steam_coal_funnel_name		Funnel Duct	输送管漏斗
 def_steam_coal_funnel_desc		Can be toggled to slowly move resources out of the connected system.	可以通过开关信号将资源缓慢的排出相连接的系统
 def_steam_coal_funnel_s_desc		A funnel for moving resources.	排出资源的漏斗
@@ -7711,14 +7741,16 @@ def_torque_meter_node_2_desc		The torque reading from the power system.	动力�
 def_train_wheels_name		Train Wheel Assembly Classic	火车轮总成(旧版)
 def_train_wheels_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_s_desc		Train wheel assembly.	火车轮毂
-def_train_wheels_node_0_label		Brakes	制动器
-def_train_wheels_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
-def_train_wheels_node_1_label		RPS	RPS
-def_train_wheels_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
-def_train_wheels_node_2_label		Wheel Slip	车轮打滑
-def_train_wheels_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
-def_train_wheels_node_3_label		Wheel Release	离轨
-def_train_wheels_node_3_desc		Input to release wheels.	将车轮脱离轨道
+def_train_wheels_node_0_label		Electric	电
+def_train_wheels_node_0_desc		Electrical power connection. Receives electric energy from the rail lines.	电力连接.接收来自铁路的供电
+def_train_wheels_node_1_label		Brakes	制动器
+def_train_wheels_node_1_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_node_2_label		RPS	RPS
+def_train_wheels_node_2_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
+def_train_wheels_node_3_label		Wheel Slip	车轮打滑
+def_train_wheels_node_3_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_node_4_label		Wheel Release	离轨
+def_train_wheels_node_4_desc		Input to release wheels.	将车轮脱离轨道
 def_train_wheels_dynamic_flanged_name		Train Wheel Assembly Flanged A	有轮缘轮轴总成A
 def_train_wheels_dynamic_flanged_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_dynamic_flanged_s_desc		Unpowered train wheel assembly.	无动力轮轴总成
@@ -7856,25 +7888,29 @@ def_train_wheels_dynamic_x1_small_node_3_desc		Input to release wheels.	将车�
 def_train_wheels_dynamic_x2_name		Train Wheel Assembly x2	列车转向架总成(带悬挂) x2
 def_train_wheels_dynamic_x2_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_dynamic_x2_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 双轴
-def_train_wheels_dynamic_x2_node_0_label		Brakes	制动器
-def_train_wheels_dynamic_x2_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
-def_train_wheels_dynamic_x2_node_1_label		RPS	RPS
-def_train_wheels_dynamic_x2_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
-def_train_wheels_dynamic_x2_node_2_label		Wheel Slip	车轮打滑
-def_train_wheels_dynamic_x2_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
-def_train_wheels_dynamic_x2_node_3_label		Wheel Release	离轨
-def_train_wheels_dynamic_x2_node_3_desc		Input to release wheels.	将车轮脱离轨道
+def_train_wheels_dynamic_x2_node_0_label		Electric	电
+def_train_wheels_dynamic_x2_node_0_desc		Electrical power connection. Receives electric energy from the rail lines.	电力连接.接收来自铁路的供电
+def_train_wheels_dynamic_x2_node_1_label		Brakes	制动器
+def_train_wheels_dynamic_x2_node_1_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x2_node_2_label		RPS	RPS
+def_train_wheels_dynamic_x2_node_2_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
+def_train_wheels_dynamic_x2_node_3_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x2_node_3_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x2_node_4_label		Wheel Release	离轨
+def_train_wheels_dynamic_x2_node_4_desc		Input to release wheels.	将车轮脱离轨道
 def_train_wheels_dynamic_x3_name		Train Wheel Assembly x3	列车转向架总成(带悬挂) x3
 def_train_wheels_dynamic_x3_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_dynamic_x3_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 三轴
-def_train_wheels_dynamic_x3_node_0_label		Brakes	制动器
-def_train_wheels_dynamic_x3_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
-def_train_wheels_dynamic_x3_node_1_label		RPS	RPS
-def_train_wheels_dynamic_x3_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
-def_train_wheels_dynamic_x3_node_2_label		Wheel Slip	车轮打滑
-def_train_wheels_dynamic_x3_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
-def_train_wheels_dynamic_x3_node_3_label		Wheel Release	离轨
-def_train_wheels_dynamic_x3_node_3_desc		Input to release wheels.	将车轮脱离轨道
+def_train_wheels_dynamic_x3_node_0_label		Electric	电
+def_train_wheels_dynamic_x3_node_0_desc		Electrical power connection. Receives electric energy from the rail lines.	电力连接.接收来自铁路的供电
+def_train_wheels_dynamic_x3_node_1_label		Brakes	制动器
+def_train_wheels_dynamic_x3_node_1_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x3_node_2_label		RPS	RPS
+def_train_wheels_dynamic_x3_node_2_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
+def_train_wheels_dynamic_x3_node_3_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x3_node_3_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x3_node_4_label		Wheel Release	离轨
+def_train_wheels_dynamic_x3_node_4_desc		Input to release wheels.	将车轮脱离轨道
 def_train_wheels_piston_name		Train Wheel Drive Piston Small	蒸汽机车驱动活塞(小)
 def_train_wheels_piston_desc		Attach to the front of a group of train-wheel assemblies to generate torque for them via mechanical steam power. Activate the reverser to flip the internal valves and the direction of travel.	安装在蒸汽机车动轮组前,通过蒸汽动力产生扭矩.激活换向开关以反转内部阀门和行驶方向
 def_train_wheels_piston_s_desc		Steam powered train piston assembly.	蒸汽机车驱动活塞总成
