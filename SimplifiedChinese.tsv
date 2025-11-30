@@ -2698,6 +2698,12 @@ id	description	en	local
 		Water	水
 		Spawn Particles	生成烟雾
 		Tourism Castle	观光城堡
+		Keel Force	龙骨力矩
+		Machine Gun Large Ammo Box (Kinetic)	机枪大弹药箱(动能)
+		Machine Gun Large Ammo Box (High Explosive)	机枪大弹药箱(高爆)
+		Machine Gun Large Ammo Box (Fragmentation)	机枪大弹药箱(破片)
+		Machine Gun Large Ammo Box (Armor Piercing)	机枪大弹药箱(穿甲)
+		Machine Gun Large Ammo Box (Incendiary)	机枪大弹药箱(燃烧)
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -4265,22 +4271,22 @@ def_gun_belt_flex_name		Autocannon Belt (Flexible)	自动炮弹链
 def_gun_belt_flex_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Autocannon belts can transfer all calibers of autocannon ammo.	柔性弹药带可以通过绳索节点连接在一起以传输弹药.自动炮弹药带可以传输所有口径的自动炮弹药
 def_gun_belt_flex_s_desc		An autocannon ammo belt.	自动炮弹药带
 def_gun_belt_flex_node_0_label		Ammo	弹药
-def_gun_belt_flex_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
+def_gun_belt_flex_node_0_desc			
 def_gun_belt_flex_l_name		Battle Cannon Belt (Flexible)	坦克炮弹链
 def_gun_belt_flex_l_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,坦克炮弹药带可以储存和转移弹药,生成的弹药类型可以在组件属性窗口中设置
 def_gun_belt_flex_l_s_desc		A battle cannon ammo belt.	坦克炮弹药带
 def_gun_belt_flex_l_node_0_label		Ammo	弹药
-def_gun_belt_flex_l_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
+def_gun_belt_flex_l_node_0_desc			
 def_gun_belt_flex_xl_name		Artillery Cannon Belt (Flexible)	大型榴弹炮弹链
 def_gun_belt_flex_xl_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,大型榴弹炮弹药带可以储存和转移弹药,生成的弹药类型可以在组件属性窗口中设置
 def_gun_belt_flex_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带
 def_gun_belt_flex_xl_node_0_label		Ammo	弹药
-def_gun_belt_flex_xl_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
+def_gun_belt_flex_xl_node_0_desc			
 def_gun_belt_flex_xxl_name		Bertha Cannon Belt (Flexible)	贝莎巨炮弹链
 def_gun_belt_flex_xxl_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,贝莎巨炮弹药带可以储存和转移弹药。生成的弹药类型可以在组件属性窗口中设置,贝莎巨炮弹药过大,无法手动转移
 def_gun_belt_flex_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带
 def_gun_belt_flex_xxl_node_0_label		Ammo	弹药
-def_gun_belt_flex_xxl_node_0_desc		Returns true if the belt contains ammo.	如果弹链中有弹药,则返回true
+def_gun_belt_flex_xxl_node_0_desc			
 def_gun_belt_junction_name		Autocannon Belt (Junction)	自动火炮弹药带(交叉)
 def_gun_belt_junction_desc		Autocannon belts can transfer all calibers of autocannon ammo. Junction belts redirect the path of ammo transfer.	自动火炮弹药带可以传送所有口径的自动火炮弹药。连接带改变了弹药转移的路径
 def_gun_belt_junction_s_desc		An autocannon ammo belt.	自动火炮弹药带
@@ -4413,6 +4419,11 @@ def_gun_drum_xsmall_desc		Stores machine gun ammo, but can only be reloaded by h
 def_gun_drum_xsmall_s_desc		A machine gun ammo box.	机枪弹药箱
 def_gun_drum_xsmall_node_0_label		Ammo count	弹药数量
 def_gun_drum_xsmall_node_0_desc		Outputs the total ammo count stored in the box.	输出存储在弹药箱子中的弹药总数
+def_gun_drum_xsmall_2_name		Machine Gun Ammo Box (Large)	机枪弹药箱(大)
+def_gun_drum_xsmall_2_desc		Stores machine gun ammo, but can only be reloaded by hand. Machine guns are restricted to Kinetic, Armor-Piercing, and Incendiary ammo only.	储存机枪弹药，机枪只能手动上膛。机枪仅限动能、穿甲和燃烧弹
+def_gun_drum_xsmall_2_s_desc		A machine gun ammo box with greater capacity.	更大的机枪弹药箱
+def_gun_drum_xsmall_2_node_0_label		Ammo count	弹药数量
+def_gun_drum_xsmall_2_node_0_desc		Outputs the total ammo count stored in the box.	输出存储在弹药箱子中的弹药总数
 def_gun_l_name		Battle Cannon	坦克主炮
 def_gun_l_desc		Battle cannons provide powerful, consistent firepower in a compact form.	坦克主炮以紧凑的形式提供强大、稳定的火力
 def_gun_l_s_desc		A battle cannon.	一门坦克主炮
@@ -5870,6 +5881,38 @@ def_multibody_turret_small_a_node_2_desc		Electrical power connection.	电源连
 def_multibody_turret_small_b_name		Turret Ring (Small)	炮塔座圈(小)b
 def_multibody_turret_small_b_desc			
 def_multibody_turret_small_b_s_desc			
+def_multibody_velocity_pivot_01_a_fluid_name		Velocity Pivot (Fluid)	速度轴(流体)
+def_multibody_velocity_pivot_01_a_fluid_desc		Inputting a value of 0 will cause it to stop. The pivot's current rotation can be read from its output. An output of 1 corresponds to one full turn, and -1 to a full turn in the opposite direction.	输入值0将导致它停止。可以从输出中读取轴的当前旋转。1的输出对应于一整圈，而-1对应于相反方向的整圈
+def_multibody_velocity_pivot_01_a_fluid_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴
+def_multibody_velocity_pivot_01_a_fluid_node_0_label		Rotational Speed	转速
+def_multibody_velocity_pivot_01_a_fluid_node_0_desc		The speed at which the pivot should rotate.	
+def_multibody_velocity_pivot_01_a_fluid_node_1_label		Current Rotation	当前圈数
+def_multibody_velocity_pivot_01_a_fluid_node_1_desc		The pivot's measured rotation expressed in fractions of full turns.	枢轴的测量旋转以整圈的分数表示
+def_multibody_velocity_pivot_01_a_fluid_node_2_label		Electric	电
+def_multibody_velocity_pivot_01_a_fluid_node_2_desc		Electrical power connection.	电源连接
+def_multibody_velocity_pivot_01_a_fluid_node_3_label		Fluid	流体
+def_multibody_velocity_pivot_01_a_fluid_node_3_desc		Fluid connection for transfering fluids.	用于输送液体的流体连接
+def_multibody_velocity_pivot_01_a_torque_name		Velocity Pivot (Power)	速度轴(动力)
+def_multibody_velocity_pivot_01_a_torque_desc		Inputting a value of 0 will cause it to stop. The pivot's current rotation can be read from its output. An output of 1 corresponds to one full turn, and -1 to a full turn in the opposite direction.	输入值0将导致它停止。可以从输出中读取轴的当前旋转。1的输出对应于一整圈，而-1对应于相反方向的整圈
+def_multibody_velocity_pivot_01_a_torque_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴
+def_multibody_velocity_pivot_01_a_torque_node_0_label		Rotational Speed	转速
+def_multibody_velocity_pivot_01_a_torque_node_0_desc		The speed at which the pivot should rotate.	
+def_multibody_velocity_pivot_01_a_torque_node_1_label		Current Rotation	当前圈数
+def_multibody_velocity_pivot_01_a_torque_node_1_desc		The pivot's measured rotation expressed in fractions of full turns.	枢轴的测量旋转以整圈的分数表示
+def_multibody_velocity_pivot_01_a_torque_node_2_label		Electric	电
+def_multibody_velocity_pivot_01_a_torque_node_2_desc		Electrical power connection.	电源连接
+def_multibody_velocity_pivot_01_a_torque_node_3_label		RPS	RPS
+def_multibody_velocity_pivot_01_a_torque_node_3_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
+def_multibody_velocity_pivot_01_b_fluid_name		Velocity Pivot	速度轴
+def_multibody_velocity_pivot_01_b_fluid_desc			
+def_multibody_velocity_pivot_01_b_fluid_s_desc			
+def_multibody_velocity_pivot_01_b_fluid_node_0_label		Fluid	流体
+def_multibody_velocity_pivot_01_b_fluid_node_0_desc		Fluid connection for transfering fluids.	用于输送液体的流体连接
+def_multibody_velocity_pivot_01_b_torque_name		Velocity Pivot	速度轴
+def_multibody_velocity_pivot_01_b_torque_desc			
+def_multibody_velocity_pivot_01_b_torque_s_desc			
+def_multibody_velocity_pivot_01_b_torque_node_0_label		RPS	RPS
+def_multibody_velocity_pivot_01_b_torque_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
 def_multibody_velocity_pivot_a_name		Velocity Pivot	速度轴
 def_multibody_velocity_pivot_a_desc		Inputting a value of 0 will cause it to stop. The pivot's current rotation can be read from its output. An output of 1 corresponds to one full turn, and -1 to a full turn in the opposite direction.	输入值0将导致它停止。可以从输出中读取轴的当前旋转。1的输出对应于一整圈，而-1对应于相反方向的整圈
 def_multibody_velocity_pivot_a_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴
