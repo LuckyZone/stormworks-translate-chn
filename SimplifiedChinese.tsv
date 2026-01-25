@@ -2704,6 +2704,17 @@ id	description	en	local
 		Machine Gun Large Ammo Box (Fragmentation)	机枪大弹药箱(破片)
 		Machine Gun Large Ammo Box (Armor Piercing)	机枪大弹药箱(穿甲)
 		Machine Gun Large Ammo Box (Incendiary)	机枪大弹药箱(燃烧)
+		Sort: None	排序:无
+		Sort: Active	排序:激活
+		Sort: Date	排序:日期
+		Sort: A to Z	排序:A到Z
+		Default	默认
+		Set Group	设置分组
+		Assign the vehicle to the selected group	将载具转移到所选分组
+		New Group	新建分组
+		New Group Name	分组名称
+		Delete Group	删除分组
+		Delete the group and return its vehicles to the default group	删除分组将会使该组内载具回到默认分组
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
