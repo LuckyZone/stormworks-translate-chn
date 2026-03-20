@@ -2698,6 +2698,8 @@ id	description	en	local
 		Water	水
 		Spawn Particles	生成烟雾
 		Tourism Castle	观光城堡
+		Fuel Level	剩余燃料
+		Destroy Vehicles	销毁载具
 		Keel Force	龙骨力矩
 		Machine Gun Large Ammo Box (Kinetic)	机枪大弹药箱(动能)
 		Machine Gun Large Ammo Box (High Explosive)	机枪大弹药箱(高爆)
@@ -2715,6 +2717,9 @@ id	description	en	local
 		New Group Name	分组名称
 		Delete Group	删除分组
 		Delete the group and return its vehicles to the default group	删除分组将会使该组内载具回到默认分组
+		PHOTOSENSITIVITY WARNING	光敏性警告
+		A small percentage of individuals may experience seizures when exposed, to certain visual images, including light patterns or flashing lights, even with no history of epilepsy or seizures.	极少数人在接触某些视觉图像(包括光影图案或闪烁画面)时,即使没有癫痫病史或曾发生过癫痫发作,也可能出现癫痫发作
+		IMMEDIATELY stop playing and consult a doctor if you experience any symptoms.	若出现任何症状,请立即停止游玩并咨询医生
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -2936,6 +2941,15 @@ def_battery_small_node_0_label		Electric Store	电力存储
 def_battery_small_node_0_desc		Energy storage for the electrical system.	电力系统的能量储存
 def_battery_small_node_1_label		Charge	剩余电量
 def_battery_small_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出
+def_buoyancy_float_block_name		Buoyancy Float Block	
+def_buoyancy_float_block_desc			
+def_buoyancy_float_block_s_desc		A block-shaped buoyant float.	
+def_buoyancy_float_pyramid_name		Buoyancy Float Pyramid	
+def_buoyancy_float_pyramid_desc			
+def_buoyancy_float_pyramid_s_desc		A pyramid-shaped buoyant float.	
+def_buoyancy_float_wedge_name		Buoyancy Float Wedge	
+def_buoyancy_float_wedge_desc			
+def_buoyancy_float_wedge_s_desc		A wedge-shaped buoyant float.	
 def_button_key_name		Key Button	钥匙开关
 def_button_key_desc		Once activated, interacting with the button again will deactivate it instantly. The hold duration can be customised by selecting this component with the select tool. The external input can be used to simulate interacting with the button down using the output of another component. The button's default state can be configured by selecting it with the select component.	一旦激活，再次按下按钮将立即停用。通过使用选择工具选择此组件，可以自定义启动开关所需的按压时间。外部输入可用于模拟使用其他组件的输出按住按钮。通过使用选择工具选择按钮，可以配置该按钮的默认状态
 def_button_key_s_desc		A button that must be held down for a set duration before activating.	需要持续按压设定的一段时间才能激活的按钮
