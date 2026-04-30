@@ -2700,6 +2700,8 @@ id	description	en	local
 		Tourism Castle	观光城堡
 		Fuel Level	剩余燃料
 		Destroy Vehicles	销毁载具
+		FPS Limit	FPS限制
+		Hydrous Ore	含水矿石(水合矿石)
 		Keel Force	龙骨力矩
 		Machine Gun Large Ammo Box (Kinetic)	机枪大弹药箱(动能)
 		Machine Gun Large Ammo Box (High Explosive)	机枪大弹药箱(高爆)
@@ -4749,6 +4751,17 @@ def_humidity_sensor_desc		The reading can be read from the sensor's number outpu
 def_humidity_sensor_s_desc		A humidity sensor for measuring the current fog and visibility meteorological conditions.	用于测量当前雾和能见度气象条件的湿度传感器
 def_humidity_sensor_node_0_label		Humidity Factor	湿度系数
 def_humidity_sensor_node_0_desc		The level of humidity in the air, relating to the fog visibility.	气体中的湿度水平，与雾的可见度有关
+def_hydrogen_fuel_cell_name		Hydrogen Fuel Cell	氢燃料电池
+def_hydrogen_fuel_cell_desc		Pumping hydrogen and oxygen into the fuel cell generates power while creating water as a byproduct.	将氢气和氧气注入燃料电池可产生电能，同时产生水作为副产物
+def_hydrogen_fuel_cell_s_desc		A hydrogen fuel cell capable of generating electric power.	通过氢氧产生电力的电池
+def_hydrogen_fuel_cell_node_0_label		Electric	电
+def_hydrogen_fuel_cell_node_0_desc		The electric connection to output electric energy.	电源连接
+def_hydrogen_fuel_cell_node_1_label		Oxygen In	氧气输入
+def_hydrogen_fuel_cell_node_1_desc			
+def_hydrogen_fuel_cell_node_2_label		Hydrogen In	氢气输入
+def_hydrogen_fuel_cell_node_2_desc			
+def_hydrogen_fuel_cell_node_3_label		Water Out	排水
+def_hydrogen_fuel_cell_node_3_desc			
 def_impact_sensor_name		Impact Sensor	冲击传感器
 def_impact_sensor_desc		Setting the impact threshold property will tune the sensitivity for impacts. When the instant change in velocity from an impact exceeds the threshold, an on signal is produced.	设置冲击阈值能够调整敏感度。 当来自撞击的瞬时速度变化超过阈值时，输出一个on信号
 def_impact_sensor_s_desc		A sensor activated by a sudden change in velocity.	传感器能够检测瞬间的速度变化
@@ -8190,6 +8203,15 @@ def_watercannon_node_2_label		Fluid Supply	进水口
 def_watercannon_node_2_desc		The fluid input to output from the nozzle. Filters to water only.	只能输入水,用于喷出
 def_watercannon_node_3_label		Electric	电
 def_watercannon_node_3_desc		Electrical power connection.	电源连接
+def_water_extractor_name		Water Extractor	矿石脱水机
+def_water_extractor_desc		Extracts water from hydrous ores when supplied with electric power.	通电后，可从含水矿石中提取水分
+def_water_extractor_s_desc		A machine to process minerals into water.	从矿石中提取水
+def_water_extractor_node_0_label		Power	电源
+def_water_extractor_node_0_desc			
+def_water_extractor_node_1_label		Process	提炼
+def_water_extractor_node_1_desc			
+def_water_extractor_node_2_label		Water Out	排水
+def_water_extractor_node_2_desc			
 def_water_hose_name		Hose	软管
 def_water_hose_desc		This can be used to transport water between Two bodies. Two on/off signals are used to control whether the hose is moving up (towards the base) or down (away from the base). A number output allows you to measure the hose's current length if necessary. The maximum length of the hose is 16 metres (64 blocks). The speed of the hose mechanism can be configured by selecting this component with the select tool.	这可以用来在两个物体之间运输水。两个开/关信号用于控制软管是向上移动(朝向底座)还是向下移动(远离底座)。数字输出允许您在必要时测量软管的当前长度。软管的最大长度为16米(64块)。软管机构的速度可以通过使用选择工具选择此组件来配置
 def_water_hose_s_desc		A building block attached to the end of a mechanical hose that can be raised and lowered.	连接在可伸缩的机械软管末端的方块
