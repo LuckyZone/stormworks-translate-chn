@@ -4460,6 +4460,8 @@ def_gun_l_node_1_label		Loaded	是否已装填
 def_gun_l_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_l_node_2_label		Open Breech	打开炮闩
 def_gun_l_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时:打开炮尾以装填炮弹
+def_gun_l_node_3_label		Fuse Timer	引信定时器
+def_gun_l_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	设置高爆弹和破片弹的延时引信,单位秒
 def_gun_l_barrel_name		Battle Cannon Barrel Extension	坦克主炮炮管加长件
 def_gun_l_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_l_barrel_s_desc		A battle cannon barrel extension.	一根坦克主炮炮管加长件
@@ -4490,6 +4492,8 @@ def_gun_m_node_1_label		Loaded	是否已装填
 def_gun_m_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_m_node_2_label		Electric	电
 def_gun_m_node_2_desc		Electrical power connection.	电源连接
+def_gun_m_node_3_label		Fuse Timer	引信定时器
+def_gun_m_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	设置高爆弹和破片弹的延时引信,单位秒
 def_gun_m_barrel_name		Heavy Autocannon Barrel Extension	重型自动火炮炮管加长件
 def_gun_m_barrel_desc		Barrel extensions increase weapon accuracy, but add additional weight.	炮管加长件增加了武器的精确度，但增加了额外的重量
 def_gun_m_barrel_s_desc		A heavy autocannon barrel extension.	重型自动火炮炮管加长件
@@ -4565,6 +4569,8 @@ def_gun_xl_node_1_label		Loaded	是否已装填
 def_gun_xl_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_xl_node_2_label		Open Breech	打开炮闩
 def_gun_xl_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时:打开炮尾以装载炮弹
+def_gun_xl_node_3_label		Fuse Timer	
+def_gun_xl_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	
 def_gun_xl_barrel_name		Artillery Cannon Barrel Extension	大型榴弹炮炮管加长件
 def_gun_xl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_xl_barrel_s_desc		An artillery cannon barrel extension.	大型榴弹炮炮管加长件
@@ -4602,6 +4608,8 @@ def_gun_xxl_node_1_label		Loaded	是否已装填
 def_gun_xxl_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_xxl_node_2_label		Open Breech	打开炮闩
 def_gun_xxl_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时:打开炮尾以装填炮弹
+def_gun_xxl_node_3_label		Fuse Timer	
+def_gun_xxl_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	
 def_gun_xxl_barrel_name		Bertha Cannon Barrel Extension	贝莎巨炮炮管加长件
 def_gun_xxl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_xxl_barrel_s_desc		A Bertha cannon barrel extension.	贝莎巨炮炮管加长件
